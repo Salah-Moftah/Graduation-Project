@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Render all elements normally -->
+    <link rel="stylesheet" href="Css/Normalize.css" />
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="Css/all.min.css" />
+    <link rel="stylesheet" href="Css/bootstrap.min.css" />
+    <link rel="stylesheet" href="Css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <title>info</title>
+  </head>
+  <body>
+    <!-- Start header -->
+    <header>
+      <div class="container">
+        <a href="index.html">
+          <div class="logo">
+            <img src="imgs/logo.png" alt="Logo" />
+          </div>
+        </a>
+        <ul class="head-ul">
+          <li>
+            <a href="index.html">الرئيسية</a>
+          </li>
+          <li>
+            <a href="benefits.html">فوائد الاقلاع عن التدخين</a>
+          </li>
+          <li>
+            <a href="program.html">برنامج الاقلاع عن التدخين</a>
+          </li>
+        </ul>
+        <a href="signup.php" class="contact-1">تواصل معنا</a>
+      </div>
+    </header>
+    <!-- End header -->
+    <div class="avatar1">
+      <div class="container p-4 d-flex justify-content-between align-items-center">
+        <h3 class="welcome ">مرحبا <span>محمد</span> نتمني ان تكون بصحة جيدة اليوم </h3>
+        <img src="imgs/avatar.png" alt="">
+      </div>
+    </div>
+    <div class="wrapper-1 my-4">
+      <div class="container">
+        <div class="infoo">
+          <div class="box">
+            <h5><span>الاسم:</span> محمد مجدي علي الهادي</h5>
+          </div>
+          <div class="box">
+            <h5><span>السن:</span> 23 سنة</h5>
+          </div>
+          <div class="box">
+            <h5><span>بداية فترة العلاج:</span> 14/1/2023</h5>
+          </div>
+          <div class="box">
+            <h5><span>نوع التدخين:</span> السجائر</h5>
+          </div>
+        </div>
+        <div class="prog mt-3 mx-3">
+          <div class="box1">
+            <h4 class="m-0">نسبة الاستشفاء</h4>
+            <div class="progress my-3" role="progressbar" aria-label="Warning example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+              <div class="progress-bar " style="width: 75%">75%</div>
+            </div>
+          </div>
+          <div class="box1">
+            <h4 class="m-0">فترة الاستشفاء</h4>
+            <div class="progress my-3" role="progressbar" aria-label="Warning example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+              <div class="progress-bar " style="width: 50%">50%</div>
+            </div>
+          </div>
+          <div class="box1 fs-5 my-4">استجابتك للعلاج:  <span class="fw-bold">ممتازة</span></div>
+          <div class="box1 fs-5">معدل شرب السجائر في اليوم: <span class="fw-bold">2</span></div>
+        </div>
+        <div class="doctors">
+          <div class="box d-flex">
+            <img src="imgs/avatar-01.png" alt="photo">
+            <div class="name me-3">
+              <h5>د.احمد صلاح</h5>
+              <span>اخصائي الصحة النفسية</span>
+            </div>
+            <a href="#" class="btn">اضغط للتواصل</a>
+          </div>
+          <div class="box d-flex">
+            <img src="imgs/avatar-02.png" alt="photo">
+            <div class="name me-3">
+              <h5>د.محمد عبدالله</h5>
+              <span>اخصائي علاج الادمان</span>
+            </div>
+            <a href="#" class="btn">اضغط للتواصل</a>
+          </div>
+          <div class="box d-flex">
+            <img src="imgs/avatar-03.png" alt="photo">
+            <div class="name me-3">
+              <h5>د.اسلام المصري </h5>
+              <span>اخصائي الصحة النفسية</span>
+            </div>
+            <a href="#" class="btn">اضغط للتواصل</a>
+          </div>
+          <div class="box d-flex">
+            <img src="imgs/avatar-04.png" alt="photo">
+            <div class="name me-3">
+              <h5>د.مريم الصافي </h5>
+              <span>اخصائي الجهاز التنفسي</span>
+            </div>
+            <a href="#" class="btn">اضغط للتواصل</a>
+          </div>
+        </div>
+        <div class="session">
+          <h4 class="mb-3">جلسات العلاج</h4>
+          <div class="list-group">
+            <a href="#" class="list-group-item list-group-item-action active" aria-current="true">
+              <div class="d-flex w-100 justify-content-between">
+                <h5 class="mb-1">جلسة مع الدكتور اسلام المصري</h5>
+                <small>3 ايام</small>
+              </div>
+              <p class="mb-1">توقيت الجلسة: 5 مساء</p>
+            </a>
+            <a href="#" class="list-group-item list-group-item-action">
+              <div class="d-flex w-100 justify-content-between">
+                <h5 class="mb-1">جلسة مع الدكتور مريم الصافي</h5>
+                <small class="text-body-secondary">اسبوعين</small>
+              </div>
+              <p class="mb-1">توقيت الجلسة: 11 صباحا</p>
+            </a>
+            <a href="#" class="list-group-item list-group-item-action">
+              <div class="d-flex w-100 justify-content-between">
+                <h5 class="mb-1">جلسة مع الدكتور اسلام المصري</h5>
+                <small class="text-body-secondary">شهر</small>
+              </div>
+              <p class="mb-1">توقيت الجلسة: 9 مساء</p>
+            </a>
+            <a href="#" class="list-group-item list-group-item-action">
+              <div class="d-flex w-100 justify-content-between">
+                <h5 class="mb-1">جلسة مع الدكتور محمد عبدالله</h5>
+                <small class="text-body-secondary">شهر</small>
+              </div>
+              <p class="mb-1">توقيت الجلسة: 5 مساء</p>
+            </a>
+          </div>
+        </div>
+        <div class="medicine">
+          <h4 class="mb-3">الادوية المستخدمة</h4>
+          <div class="box d-flex justify-content-between pb-2 mb-2">
+            <div>
+              <h4 class="m-0">Champix</h4>
+              <span >الجرعة: مرتين في اليوم</span>
+            </div>
+            <i class="fa-solid fa-capsules fa-2x"></i>
+          </div>
+          <div class="box d-flex justify-content-between pb-2 mb-2">
+            <div>
+              <h4 class="m-0">Banpix</h4>
+              <span>الجرعة: ثلاث مرات في اليوم</span>
+            </div>
+            <i class="fa-solid fa-capsules fa-2x"></i>
+          </div>
+        </div>
+        <div class="chat">
+          <h4 class="mb-3">التحدث مع الاخصائي</h4>
+          <div class="head d-flex justify-content-between align-items-center">
+            <img src="imgs/avatar-03.png" alt="photo">
+            <span>د.اسلام المصري</span>
+            <div class="icon">
+              <i class="fa-solid fa-phone ms-2"></i>
+              <i class="fa-solid fa-video"></i>
+            </div>
+          </div>
+          <div class="message position-relative">
+            <div class="mess d-flex ms-5 me-2 position-absolute">
+              <img class="ms-2" src="imgs/avatar.png" alt="">
+              <p>ازايك يا دكتور انا مشيت علي النظام اللي حضرتك قولتلي عليه وحاسس بفرق كبير شكرا ليك جدا</p>
+            </div>
+          </div>
+          <div class="text d-flex justify-content-between align-items-center">
+            <div class="icon">
+              <i class="fa-solid fa-microphone me-2"></i>
+              <i class="fa-solid fa-camera me-2"></i>
+            </div>
+            <input class="mx-3" type="text" name="text" placeholder="رسالة">
+            <div class="icon">
+              <i class="fa-solid fa-image ms-2"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Start Footer -->
+    <footer>
+      <div class="container">
+        <div class="box">
+          <ul class="ul-social">
+            <li>
+              <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="fa-brands fa-twitter"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+            </li>
+          </ul>
+          <div class="line">
+            <i class="fas fa-phone-volume fa-fw"></i>
+            <div class="info">
+              <span>20123456789+</span>
+              <span>20198765432+</span>
+            </div>
+          </div>
+          <a href="signup.php" class="btn-footer">تواصل معنا</a>
+        </div>
+        <div class="box">
+          <h3 class="h3-1">من نحن</h3>
+          <p class="p-1">
+            مجموعة من طلاب اكاديمية القاهرة الجديدة نسعي لتقديم خدمة الاقلاع عن التدخين بمساعدة عدة اطباء لتكوين برنامج كامل يساعدك علي ترك التدخين نهائيا 
+          </p>
+        </div>
+        <div class="box">
+          <h3 class="h3-2">روابط مفيدة</h3>
+          <ul class="link">
+            <li>
+              <a href="index.html">الرئيسية</a>
+            </li>
+            <li>
+              <a href="benefits.html">فوائد الإقلاع عن التدخين</a>
+            </li>
+            <li>
+              <a href="program.html">برنامج الاقلاع عن التدخين</a>
+            </li>
+            <li>
+              <a href="advice.html">نصائح للإقلاع عن التدخين</a>
+            </li>
+            <li>
+              <a href="universitie.html">التدخين في الجامعات </a>
+            </li>
+          </ul>
+        </div>
+        <div class="box image">
+          <img class="img-1"src="imgs/logo-footer.png" alt="Photo" />
+          <img class="img-2" src="imgs/logo-white.png" alt="Photo" />
+        </div>
+      </div>
+      <p class="copyright">
+        Copyright© 2023. Design By Student Programming And Development Team At
+        CIS
+      </p>
+    </footer>
+    <!-- End Footer -->
+    <script src="main.js"></script>
+    <script src="bootstrap.bundle.js"></script>
+    <script src="all.min.js"></script>
+  </body>
+</html>
